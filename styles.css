@@ -41,15 +41,21 @@ body {
 }
 
 .credit {
-    font-size: 5rem;
-    padding-bottom: 32px;
+    font-size: 1rem;
+    padding-bottom: 16px;
     color: lightgray;
 }
 
 .logo {
-    height: 30rem;
+    height: 6rem;
 }
 
 .logo-text {
-    font-size: 20rem;
+    font-size: 5rem;
+}
+
+.right {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
 }
