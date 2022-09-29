@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "custom";
+    src: url("fonts/norse-bold-webfont.woff") format("woff"), url("fonts/norse-bold-webfont.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+}
+
+/* Left side styling */
+.bg-image {
+    background-image: url("background.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+    text-align: center;
+    color: white;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "custom";
+    margin-top: 20vh;
+    padding: 16px 0;
+    background-color: rgba(0,0,0,0.45); 
+}
+
+.credit {
+    font-size: 5rem;
+    padding-bottom: 32px;
+    color: lightgray;
+}
+
+.logo {
+    height: 30rem;
+}
+
+.logo-text {
+    font-size: 20rem;
+}
